@@ -246,7 +246,7 @@ ul li {
   justify-content: center;
   background-color: #2E86AB;
   border-radius: 20%;
-  box-shadow: 4px 4px 2px #212222;
+  box-shadow: 2px 2px 2px #212222;
   border-bottom: 1px solid #212222;
   border-right: 1px solid #212222;
 }
@@ -281,7 +281,7 @@ h2 {
   height: 35vh;
   background-color: #2E86AB;
   border-radius: 20%;
-  box-shadow: 5px 5px 2px #212222;
+  box-shadow: 2px 2px 1px #212222;
   border-right: 1px solid #212222;
   border-bottom: 1px solid #212222;
   align-self: center;
