@@ -60,7 +60,7 @@ var $nasa = function() {
 
 var $flick = function() {
 
-  var url="http://api.flickr.com/services/feeds/photos_public.gne?" + "tags=inspiring&format=json&jsoncallback=?";
+  var url="https://api.flickr.com/services/feeds/photos_public.gne?" + "tags=inspiring&format=json&jsoncallback=?";
 
     $.getJSON(url, function (data) {
       var randomNum = Math.floor(Math.random() * 20);
