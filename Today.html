@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calendar</title>
+    <link rel='stylesheet' type='text/css' href='Today.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <body>
+      <header>
+        <h1>uDaily</h1>
+        <nav>
+            <div class='nav_list'>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='ToDo.html'>To-Do</a></li>
+            <li><a href='Today.html'>Dash</a></li>
+            <li><a href='About.html'>About</a></li>
+            <li><a href='Demo.html'>Demo</a></li>
+            </div>
+        </nav>
+      </header>
+
+    <main>
+      <div id='left_column' class='animated slideInLeft'>
+        <div class="left_img" id='nasa'></div>
+        <h3>Nasa Picture of the Day</h3>
+        <div class="left_img" id='flick'>
+        <h3 id='flicked'>Random inspiration from Flickr</h3>
+        </div>
+      </div>
+
+      <div id="center_column" class="animated slideInUp">
+        <div id="mock_cal">
+          <h2 class='big_name'></h2>
+          <p>Friday, November 18th</p>
+        </div>
+        <ul class='do_it'>
+
+        </ul>
+      </div>
+
+      <div id="right_column" class="animated slideInRight">
+        <div class="recipe_hold">
+        <h2 class='recipe_header'>Your simple recipe:</h2>
+        </div>
+        <div class="quote_hold">
+          <h2 class='quote_header'>Programming quote of the day:</div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        uDaily Corporation || Denver, CO || Copyright 2016
+      </p>
+    </footer>
+
+  <script src='Today.js'></script>
+
+  </body>
+</html>

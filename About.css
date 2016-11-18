@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F5AE
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background-color: #2E86AB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  box-shadow: 4px 4px 2px #212222;;
+}
+
+nav {
+  width: 30%;
+  height: auto;
+  margin-right: 4%;
+  background-color: #F24236;
+  border-radius: 5%;
+  box-shadow: 3px 3px 1px grey;
+  border-bottom: 0.5px solid #F5F749;
+  border-right: 0.5px solid #F5F749;
+}
+
+h1 {
+  font-size: 4em;
+  margin-left: 6%;
+  color: #F24236;
+  text-shadow: 1px 1px 1px black;
+  font-family: orange juice;
+  font-weight: 100;
+}
+
+.nav_list {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_list li {
+  text-align: center;
+  width: 20%;
+  font-size: 1.3em;
+  margin: 1%;
+  list-style-type: none;
+  border: 0.5px solid #F5F749;
+  color: #F5F749;
+  font-family: Ranga;
+}
+
+li a {
+  color:#F5F749;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+.texty {
+  margin-top: 4%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-itmems: center;
+  text-align: center;
+  padding: auto;
+}
+
+.texty h1 {
+  text-shadow: 1px 1px 1px #2E86AB;
+  margin-right: 3%;
+  margin-bottom: 2%;
+}
+
+h2 {
+  font-family: Concert One;
+  text-align: center;
+  margin-top: 3%;
+  text-shadow: 1px 1px 1px #2E86AB;
+}
+
+img {
+  width: 40vw;
+  height: auto;
+  align-self: center;
+  border-radius: 15%;
+  box-shadow: 3px 3px 3px #212222;
+  border-bottom: 1px solid #212222;
+  border-right: 1px solid #212222;
+}
+
+footer {
+  border-top: 0.5px solid #212222;
+  width: 100%;
+  height: 6%;
+  background-color: #2E86AB;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px -2px 1px #212222;
+}
+
+footer p {
+  font-family: Ranga;
+  font-size: 2em;
+  color: #F24236;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 100;
+}

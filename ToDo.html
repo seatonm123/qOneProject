@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calendar</title>
+    <link rel='stylesheet' type='text/css' href='ToDo.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+  </head>
+
+  <header>
+    <h1>uDaily</h1>
+    <nav>
+        <div class='nav_list'>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='ToDo.html'>To-Do</a></li>
+        <li><a href='Today.html'>Dash</a></li>
+        <li><a href='About.html'>About</a></li>
+        <li><a href='Demo.html'>Demo</a></li>
+        </div>
+    </nav>
+  </header>
+
+    <main>
+      <div id="left_column" class="animated slideInLeft">
+        <form>
+          <label for "add_to" id='add_label'>Enter up to 8 daily tasks</label>
+          <input name="add_to" id="add_to" val=""/>
+          <button id="add_button">Add</button>
+        </form>
+      </div>
+      <div class="right_column">
+        <ul class="do_list">
+        </ul>
+        <a href='Today.html'><button type='submit' class='animated flipInX' id='sub1'>Submit</button></a>
+        <h2 class='instructions'>Click on items to remove them from your to-do list</h2>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        uDaily Corporation || Denver, CO || Copyright 2016
+      </p>
+    </footer>
+
+  <script src='ToDo.js'></script>
+
+  </body>
+</html>
